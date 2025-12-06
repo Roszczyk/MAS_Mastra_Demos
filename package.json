@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "@ai-sdk/openai": "^2.0.77",
-    "@mastra/core": "^0.24.6"
+    "@mastra/core": "^0.24.6",
+    "@mastra/libsql": "^0.16.3",
+    "@mastra/memory": "^0.15.12"
   }
 }
