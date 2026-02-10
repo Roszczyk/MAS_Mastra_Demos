@@ -10,14 +10,14 @@ const myAgent = new Agent({
 async function run() {
   const response = await myAgent.generate(
     [
-      { role: "user", content: "Napisz jedno zdanie o sztucznej inteligencji." }
+      { role: "user", content: "Write one sentence about Artificial Intelligence" }
     ],
     {
       mode: "legacy"
     }
   );
 
-  console.log("Odpowiedź agenta:");
+  console.log("Agent's response:");
   console.log(response.text);
 }
 
